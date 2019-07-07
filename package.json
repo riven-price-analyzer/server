@@ -20,5 +20,10 @@
   "homepage": "https://github.com/riven-price-analyzer/server#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "paperplane": "^2.3.0",
+    "ramda": "^0.26.1"
   }
 }
