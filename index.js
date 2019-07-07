@@ -29,9 +29,6 @@ const app = routes({
   '/stats/:name': methods({
     POST: R.pipe(logReq, R.prop('body'), json),
   }),
-  '*': methods({
-    GET: hello
-  }),
 });
  
 http
